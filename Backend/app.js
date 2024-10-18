@@ -14,7 +14,7 @@ const app = express();
 dotenv.config({ path: "./config/config.env" });
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Specify your frontend's URL
+  origin: 'https://jobportal-sanskar.netlify.app', // Specify your frontend's URL
   credentials: true,
 }));
 
